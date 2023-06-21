@@ -1,0 +1,12 @@
+echo "enter 1st side:"
+read a
+echo "enter 2nd side:"
+read b
+echo "enter 3rd side:"
+read c
+if ((a+b > c && a+c > b && b+c >a))
+then
+echo "can form triangle"
+else
+echo "cannot fotm triangle"
+fi

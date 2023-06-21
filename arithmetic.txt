@@ -1,0 +1,12 @@
+echo "enter 1st number"
+read a
+echo "enter 2nd number"
+read b
+sum=$((a + b))
+diff=$((a - b))
+mul=$((a * b))
+div=$((a / b))
+echo "sum:" $sum
+echo "difference:" $diff
+echo "multiply:" $mul
+echo "division:" $div

@@ -1,0 +1,12 @@
+echo "enter a number"
+read a
+for ((i=2 ; i<a ; i++))
+do
+n=$((a%i))
+if [ $a -eq 0 ]
+then
+echo "not prime"
+exit 0
+fi
+done
+echo "its prime"

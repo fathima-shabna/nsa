@@ -1,0 +1,8 @@
+echo "enter the filename"
+read filename
+word_count=$(wc -w < "$filename")
+line_count=$(wc -l < "$filename")
+character_count=$(wc -c < "$filename")
+echo "word count is:" $word_count
+echo "line count is:" $line_count
+echo "character count is:" $character_count
